@@ -11,6 +11,7 @@ A Python-based automation tool that extracts invoice details from PDFs, saves th
 🛠 Setup & Installation
 -Setup google cloud workspace. Create project and enable OAuth APIs for connection with gmail for personal accounts. refer https://support.google.com/googleapi/answer/6158849?hl=en for details</br>
 -Clone the repository and navigate to it. </br>
+-Download the OAuth Client JSON file and save it as client_secrets.json in the same directory as final.py
 -Run the following to install dependencies. 
 ```sh
 pip install -r requirements.txt
@@ -18,5 +19,3 @@ pip install -r requirements.txt
 -Add your unique gemini API key in the final.py code under main.
 -Provide your INVOICE_FOLDER_ID which is the id of the google drive folder where invoices are stored. 
 -Provide your ARCHIVE_FOLDER_ID which is the id of the google drive folder where invoices should be saved after processing is complete. 
-
--Create 
