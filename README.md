@@ -10,7 +10,7 @@ A Python-based automation tool that extracts invoice details from PDFs, saves th
 
 🛠 Setup & Installation
 -Setup google cloud workspace. Create project and enable OAuth APIs for connection with gmail and google drive for personal accounts. Refer to https://support.google.com/googleapi/answer/6158849?hl=en for details</br>
--Setup account on make.com to automate the process of saving invoice attatchments automatically to Google drive. (optional)</br>
+-Setup account on [make.com](https://www.make.com/en) to automate the process of saving invoice attatchments automatically to Google drive. (optional)</br>
 -Clone the repository and navigate to it. </br>
 -Download the OAuth Client JSON file and save it as client_secrets.json in the same directory as final.py
 -Run the following to install dependencies. 
