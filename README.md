@@ -4,7 +4,7 @@ A Python-based automation tool that extracts invoice details from PDFs, saves th
 📌 Features
  -Reads invoice pdf files from a designated directory in google drive</br>
  -Parses invoice details with Gemini AI</br>
- -Extracts text from invoices using PyMuPDF</br>
+ -Extracts text from invoices</br>
  -Saves extracted data to Excel appending to the existing records</br>
  -Moves processed invoices to a designated archive folder in Google Drive</br>
 
@@ -17,6 +17,6 @@ A Python-based automation tool that extracts invoice details from PDFs, saves th
 ```sh
 pip install -r requirements.txt
 ```
--Add your unique gemini API key in the final.py code under main.
--Provide your INVOICE_FOLDER_ID which is the id of the google drive folder where invoices are stored. 
--Provide your ARCHIVE_FOLDER_ID which is the id of the google drive folder where invoices should be saved after processing is complete. 
+-Add your unique gemini API key in the final.py code under main.</br>
+-Provide your INVOICE_FOLDER_ID which is the id of the google drive folder where invoices are stored.</br> 
+-Provide your ARCHIVE_FOLDER_ID which is the id of the google drive folder where invoices should be saved after processing is complete. </br>
