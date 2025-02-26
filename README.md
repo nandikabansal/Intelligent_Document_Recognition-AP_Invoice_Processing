@@ -10,7 +10,8 @@ A Python-based automation tool that extracts invoice details from PDFs, saves th
 🛠 Setup & Installation
 -Clone the repository and navigate to it. </br>
 -Run the following to install dependencies. 
-'''sh
+```sh
 pip install -r requirements.txt
+
 
  
