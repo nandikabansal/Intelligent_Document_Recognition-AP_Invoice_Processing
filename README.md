@@ -13,5 +13,6 @@ A Python-based automation tool that extracts invoice details from PDFs, saves th
 ```sh
 pip install -r requirements.txt
 ```
+-Add your unique gemini API key in the final.py code under main.
+-
 
-hello
